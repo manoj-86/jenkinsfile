@@ -10,7 +10,7 @@ pipeline {
                 doGenerateSubmoduleConfigurations: false, 
                 extensions: [], submoduleCfg: [],
                 userRemoteConfigs: [[credentialsId: 'Git',
-                url: 'https://github.com/manoj-86/petclinic1.git']]])
+                url: 'https://github.com/manoj-86/petclinic.git']]])
                 }
             catch(Exception e){
                 echo "Git Clone Failed...."
